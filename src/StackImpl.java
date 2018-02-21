@@ -3,7 +3,7 @@ import org.junit.*;
 
 
 
-public class StackImpl<T> implements Stack {
+public class StackImpl<T> implements Stack<T> {
     private int limit;
     private int p;
     private T[] data;
@@ -25,7 +25,7 @@ public class StackImpl<T> implements Stack {
         return p;
     }
     public boolean plena(){
-        if(p==limit)
+        if(p>limit)
             return true;
         else return false;
     }
