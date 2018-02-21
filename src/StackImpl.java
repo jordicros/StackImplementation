@@ -4,7 +4,7 @@ import org.junit.*;
 import java.util.Stack;
 //TEST STUFF
 
-public class StackImpl extends Stack {
+public class StackImpl<T> extends Stack {
     private int limit;
 
     public void setLimit(int var)
