@@ -2,7 +2,7 @@ import org.junit.*;
 
 
 import java.util.Stack;
-//TEST STUFF
+
 
 public class StackImpl<T> extends Stack {
     private int limit;
