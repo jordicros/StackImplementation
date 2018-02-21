@@ -2,6 +2,7 @@ import org.junit.*;
 
 
 import java.util.Stack;
+//TEST STUFF
 
 public class StackImpl extends Stack {
     private int limit;
@@ -19,8 +20,5 @@ public class StackImpl extends Stack {
     {
         setLimit(num);
     }
-    //TEST STUFF
-    @Before
-    @Test
-    @After
+
 }
