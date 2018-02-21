@@ -32,6 +32,16 @@ public class StackImpl<T> implements Stack {
 
 
 
+    /*public void push(T t) throws PilaPlenaException{
+        if(this.plena())
+        {
+            throw new PilaPlenaException();
+        }
+        this.data[this.p++]=t;
+        this.p++;
+    }
+*/
+    @Override
     public void push(T t) throws PilaPlenaException{
         if(this.plena())
         {
@@ -40,6 +50,7 @@ public class StackImpl<T> implements Stack {
         this.data[this.p++]=t;
         this.p++;
     }
+
     public T pop() throws PilaBuidaException{
         if(this.size()==0)
         {
