@@ -44,9 +44,9 @@ public class StackImpl<T> implements Stack {
         if(this.size()==0)
         {
             throw new PilaBuidaException();
-            T t=this.data[this.p--];
-            this.p--;
-            return t;
         }
+        T t=this.data[this.p--];
+        this.p--;
+        return t;
     }
 }
